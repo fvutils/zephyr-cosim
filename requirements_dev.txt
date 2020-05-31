@@ -1,0 +1,4 @@
+
+-e git+https://github.com/fvutils/cocotb.git@task_bfm#egg=cocotb
+-e git+https://github.com/pybfms/generic_sram_bfms.git#egg=generic_sram_bfms
+
