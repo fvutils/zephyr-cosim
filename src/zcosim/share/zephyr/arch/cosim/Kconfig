@@ -4,10 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 
 menu "Cosim (native) Options"
-	depends on ARCH_COSIM
+	depends on COSIM
 
 config ARCH
+        string
 	default "cosim"
+
+menu "Cosim Execution Options"
 
 config ARCH_COSIM_RECOMMENDED_STACK_SIZE
 	int
@@ -20,4 +23,5 @@ config ARCH_COSIM_RECOMMENDED_STACK_SIZE
 	  thread stack, the real stack is the native underlying pthread stack.
 	  Therefore the allocated stack can be limited to this size)
 
+endmenu
 endmenu

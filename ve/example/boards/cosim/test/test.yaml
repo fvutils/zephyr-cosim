@@ -1,0 +1,13 @@
+identifier: test
+name: Native 32-bit POSIX port
+type: sim
+arch: cosim
+toolchain:
+  - zephyr
+  - llvm
+  - host
+supported:
+  - netif:eth
+  - usb_device
+testing:
+  default: true

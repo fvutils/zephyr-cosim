@@ -1,0 +1,16 @@
+# Copyright (c) 2017 Intel Corporation
+# SPDX-License-Identifier: Apache-2.0
+
+if SOC_COSIM_SIMPLE
+
+config SOC
+	default "simple"
+
+config SYS_CLOCK_HW_CYCLES_PER_SEC
+	default 1000000
+
+config COSIM_HAS_CPU_IDLE
+	bool
+
+endif # SOC_COSIM_SIMPLE
+

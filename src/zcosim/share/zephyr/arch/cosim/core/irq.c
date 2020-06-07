@@ -5,7 +5,7 @@
  */
 
 #include <arch/posix/posix_soc_if.h>
-#include "board_irq.h"
+#include "../../../../../../../ve/example/test_board/board_irq.h"
 
 #ifdef CONFIG_IRQ_OFFLOAD
 #include "irq_offload.h"

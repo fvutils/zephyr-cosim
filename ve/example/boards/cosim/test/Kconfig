@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_TEST
+	bool
+	select HAS_DTS
+
+if BOARD_TEST
+
+comment "Test Cosim options"
+
+
+endif

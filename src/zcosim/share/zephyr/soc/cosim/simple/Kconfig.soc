@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: Apache-2.0
+
+config SOC_COSIM_SIMPLE
+	bool "Cosim Integration"
+	select COSIM
+	help
+	  SOC for to the Cosim architecture. 
